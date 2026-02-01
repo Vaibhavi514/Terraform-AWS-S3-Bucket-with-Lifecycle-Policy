@@ -29,6 +29,56 @@ terraform.tfvars # Variable values
    |
 outputs.tf       # Output values
 
+
+🚀 How to Run This Terraform Project
+
+Follow these steps to provision the AWS S3 bucket using Terraform:
+
+1️⃣ Initialize Terraform
+
+Initializes the working directory and downloads the required provider plugins.
+
+terraform init
+
+2️⃣ Review the Execution Plan
+
+Shows what resources Terraform will create before applying changes.
+
+terraform plan
+
+3️⃣ Apply the Configuration
+
+Creates the S3 bucket and attaches the lifecycle policy.
+
+terraform apply
+
+
+Type yes when prompted.
+
+4️⃣ (Optional) Destroy the Resources
+
+Removes all resources created by Terraform.
+
+terraform destroy
+
+⚠️ Prerequisites
+
+AWS account
+
+AWS CLI configured (aws configure)
+
+Terraform installed
+
+IAM user with S3 permissions
+
+🧠 Why init, plan, apply Matter
+
+terraform init → prepares Terraform to work
+
+terraform plan → prevents accidental changes
+
+terraform apply → safely provisions infrastructure
+
 🧠 Skills Demonstrated
 
 Terraform Infrastructure as Code (IaC)
