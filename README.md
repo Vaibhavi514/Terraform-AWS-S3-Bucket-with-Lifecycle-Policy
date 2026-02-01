@@ -19,11 +19,11 @@ This project uses Terraform to provision an AWS S3 bucket and apply a lifecycle 
 
 🧩 Terraform Files Structure
 .
-├── main.tf          # S3 bucket & lifecycle configuration
-├── provider.tf      # AWS provider configuration
-├── variables.tf     # Input variable definitions
-├── terraform.tfvars # Variable values
-├── outputs.tf       # Output values
+├──- main.tf          # S3 bucket & lifecycle configuration
+├──-provider.tf      # AWS provider configuration
+├──-variables.tf     # Input variable definitions
+├──-terraform.tfvars # Variable values
+├──-outputs.tf       # Output values
 
 🧠 Skills Demonstrated
 
